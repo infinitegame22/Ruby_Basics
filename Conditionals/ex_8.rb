@@ -1,9 +1,8 @@
 status = ['awake', 'tired'].sample
 
 alert = if status == 'awake'
-          'Be productive!'
+          puts 'Be productive!'
         else
-          'Go to sleep!'
+          puts 'Go to sleep!'
         end
-
-puts alert
+alert
